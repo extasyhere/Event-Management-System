@@ -1,0 +1,18 @@
+
+.buttonadmin{
+    position: relative;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .loginButtonadmin{
+        top: 20vh;
+        width: 100vh;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        color: black;
+    }
+}

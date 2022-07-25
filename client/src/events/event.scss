@@ -1,0 +1,50 @@
+.event{
+    padding: 5px;
+    top: 180px;
+    left: 5%;
+    position: relative;
+    display: flex;
+    color: black;
+    width: 90%;
+    border: 1px solid black;
+
+    .eventimg{
+        width: 30%;
+        object-fit: fill;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        .more{
+            display: flex;
+            justify-content: space-between;
+            .additional_info{
+                width: 100%;
+                flex-direction: column;
+                .artists{
+                    display: flex;
+                    .time{
+                        width: 25%;
+                    }
+                    .venue{
+                        width: 35%;
+                    }
+                    .artist{
+                        width: 40%;
+
+                    }
+
+
+                }
+            }
+            .buy_button{
+                display: flex;
+                width: 15%;
+                left: 80%;
+                align-items: center;
+                text-align: center;
+            }
+            
+        }
+    }
+}
